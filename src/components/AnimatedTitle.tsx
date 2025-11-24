@@ -35,13 +35,13 @@ const AnimatedTitle = ({ title, containerClass }) => {
   }, []);
 
   return (
-    <div ref={containerRef} className={clsx("animated-title", containerClass)}>
+    <div ref={containerRef} className={clsx("animated-title", containerClass, "special-font")}>
       {title.split("<br />").map((line, index) => (
         <div
           key={index}
           className="flex-center max-w-full flex-wrap gap-2 px-10 md:gap-3"
         >
-          {line.split(" ").map((word: string, idx) => (
+          {line.split(" ").map((word, idx) => (
             <span
               key={idx}
               className="animated-word"
