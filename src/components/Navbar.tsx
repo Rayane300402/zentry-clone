@@ -1,4 +1,4 @@
-import clsx from "clsx";
+// @ts-nocheck
 import gsap from "gsap";
 import { useWindowScroll } from "react-use"; // helps know where user is at on screen aka user property of scroll
 

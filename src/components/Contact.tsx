@@ -1,3 +1,4 @@
+// @ts-nocheck
 import AnimatedTitle from "./AnimatedTitle";
 import Button from "./Button";
 

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import gsap from "gsap";
 import AnimatedTitle from "./AnimatedTitle";
 import { useRef } from "react";

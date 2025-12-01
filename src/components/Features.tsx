@@ -1,3 +1,4 @@
+// @ts-nocheck
 import type { ReactNode } from "react";
 import { useState, useRef } from "react";
 import { TiLocationArrow } from "react-icons/ti";

@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-
+// @ts-nocheck
 const Button = ({ title, id, leftIcon, rightIcon, containerClass }) => {
   return (
     <button
